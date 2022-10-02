@@ -10,6 +10,12 @@
   color:#2f80ed;
 }
 
+.list {
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
 .header {
   display: flex;
   position: relative;
@@ -35,6 +41,7 @@
 
 .header__title {
   width: 730px;
+  margin: 0;
   align-self: center;
   padding-left: 64px;
   z-index: 2;
@@ -48,6 +55,7 @@
   bottom: 30px;
   left: 64px;
   width: 388px;
+  margin: 0;
   z-index: 2;
   line-height: 25px;
   font-size: 18px;
@@ -71,6 +79,54 @@
   width: 568px;
   background-color: #2f80ed;
 }
+
+.description {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding-top: 100px;
+}
+
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.two-columns__brief {
+  width: 175px;
+  margin: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color:#2f80ed;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph {
+  margin: 0;
+  padding-bottom: 30px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__paragraph:last-child {
+  padding-bottom: 0;
+}
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
